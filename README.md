@@ -1,6 +1,13 @@
 # thinkphp6 又拍云 filesystem
 
 基于 [jellybool/flysystem-upyun](https://github.com/JellyBool/flysystem-upyun) 轻度封装tp
+## 安装
+
+---
+```shell
+composer require death_satan/thinkphp-aliyun-oss
+```
+---
 
 ## 初始化
 ### 修改配置 *config/filesystem.php* 文件
