@@ -1,0 +1,24 @@
+{
+    "name": "death_satan/thinkphp-ypyun-oss",
+    "description": "thinkphp6 Ypanyun oss filesystem",
+    "type": "library",
+    "homepage": "https://www.cnblogs.com/death-satan",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "death-satan",
+            "email": "2771717608@qq.com"
+        }
+    ],
+    "require": {
+        "topthink/framework": "^6.0.0",
+        "jellybool/flysystem-upyun": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\filesystem\\driver\\": "src"
+        }
+    },
+    "minimum-stability": "stable",
+    "keywords": ["thinkphp6","thinkphp composer组件扩展包","thinkphp6 又拍云 oss","thinkphp Ypanyun oss","Ypanyun oss"]
+}
